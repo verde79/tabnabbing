@@ -7,11 +7,18 @@
     <title>A random page</title>
 </head>
 <body>
-    <h1>A Random page</h1>
-    <h2>That doesn't use rel="noopener noopener" in it's links with target="_blank" to open the link in a new tab</h2>
-    
-    <p>It's not that important is it, I mean if I'm linking to a secure page, there's nothing to worry about is there?</p>
-    <p>A malicious example</p>
-    <a href="https://verde79.github.io/evilkittysite/" target="_blank">link here</a>
+    <header>
+        <h1>A Random page</h1>
+    </header>
+    <main>
+        <h3>If you create a link that opens in a new tab with target="_blank", did you know that you should also include rel="noopener noreferrer"</h3>
+        <p>I've got a nice site that I want to share with people, it's got naughty little kittens that everyone will want to see</p>
+        <p>An example with rel="noopener noreferrer"</p>
+        <a href="https://verde79.github.io/evilkittysite/" target="_blank" rel="noreferrer noopener">link here</a>
+        <br>
+        <p>An example without</p>
+        <a href="https://verde79.github.io/evilkittysite/" target="_blank">link here</a>
+    </main>
+
 </body>
 </html>
